@@ -1,4 +1,10 @@
+syntax:glob
+
 *.py[co]
+.idea**
+docs/_build/
+
+.git/
 
 # Packages
 *.egg
@@ -25,5 +31,3 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
-
-.hg
